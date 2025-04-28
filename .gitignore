@@ -1,0 +1,40 @@
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar pastas de configurações de editores
+.vscode/
+.idea/
+
+# Ignorar arquivos de log ou temporários
+*.log
+*.tmp
+*.temp
+
+# Ignorar arquivos de backup
+*.bak
+*.swp
+*~
+
+# Node.js (caso adicione algum script futuramente)
+node_modules/
+
+# Pastas de build (caso tenha algum processamento futuro)
+dist/
+build/
+
+# Arquivos de cache
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ambiente Python (se usar algum script futuro)
+__pycache__/
+*.py[cod]
+.env
+
+# Arquivos compactados
+*.zip
+*.tar.gz
+*.rar
